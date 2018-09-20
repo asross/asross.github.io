@@ -1,0 +1,79 @@
+@page {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+body {
+  font-family: Enriqueta, serif;
+  margin: 3em 4em;
+  margin-bottom: 0;
+  margin-top: 3em;
+  font-size: 13px;
+}
+
+h1 {
+  border-bottom: 1pt solid black;
+  margin-top: 0;
+}
+
+.left {
+  float: left;
+  max-width: 82.5%;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.clearfix {
+  overflow: hidden;
+}
+
+.two-col {
+  display: table;
+  section {
+    display: table-row;
+
+    .label, .details {
+      padding: 1em 0;
+      display: table-cell;
+    }
+
+    .label {
+      vertical-align: top;
+      font-variant: small-caps;
+      white-space: nowrap;
+      padding-right: 2em;
+    }
+
+    .details {
+      &:last-child {
+        padding-bottom: 0.5em;
+      }
+
+      width: 100%;  // take max available
+      .date {
+        float: right;
+        font-weight: bold;
+        margin-left: 2em;
+      }
+      ul {
+        &.flushleft {
+          padding-left: 0;
+        }
+        padding: 0 0 0 1em;
+        margin: 0;
+        margin-bottom: 1em;
+        li {
+          list-style: none;
+          max-width: 87.5%;
+        }
+      }
+    }
+  }
+}
+
+section .details ul:last-of-type {
+  margin-bottom: 5px !important;
+}
