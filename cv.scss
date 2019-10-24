@@ -12,6 +12,13 @@ body {
   font-size: 13px;
 }
 
+@media print {
+  body {
+    margin: 2em !important;
+    font-size: 11px;
+  }
+}
+
 h1 {
   border-bottom: 1pt solid black;
   margin-top: 0;

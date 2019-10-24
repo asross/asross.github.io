@@ -1,0 +1,85 @@
+- title: Controlled Direct Effect Priors for Bayesian Neural Networks
+  year: 2019
+  authors: Andrew Slavin Ross, Jianzhun Du, Yonadav Shavit, and Finale Doshi-Velez
+  venue: NeurIPS Workshop on Bayesian Deep Learning
+
+- title: Tackling Climate Change with Machine Learning
+  year: 2019
+  authors: David Rolnick, Priya L. Donti, Lynn H. Kaack, Kelly Kochanski, Alexandre Lacoste, Kris Sankaran, Andrew Slavin Ross, Nikola Milojevic-Dupont, Natasha Jaques, Anna Waldman-Brown, Alexandra Luccioni, Tegan Maharaj, Evan D. Sherwin, S. Karthik Mukkavilli, Konrad P. Kording, Carla Gomes, Andrew Y. Ng, Demis Hassabis, John C. Platt, Felix Creutzig, Jennifer Chayes, and Yoshua Bengio
+  venue: arXiv preprint
+  link: https://arxiv.org/abs/1906.05433
+  pdf: /publications/RolnickEtAl2019.pdf
+
+- title: Design Continuums and the Path Towards Self-Designing Key-Value Stores that Know and Learn
+  year: 2019
+  authors: Stratos Idreos, Niv Dayan, Wilson Qin, Mali Akmanalp, Sophie Hilgard, Andrew Slavin Ross, James Lennon, Varun Jain, Harshita Gupta, David Li, and Zichen Zhu
+  venue: CIDR
+  link: http://cidrdb.org/cidr2019/papers/p143-idreos-cidr19.pdf
+  pdf: /publications/IdreosEtAl2019.pdf
+
+- title: Refactoring Machine Learning
+  year: 2018
+  authors: Andrew Slavin Ross and Jessica Zosa Forde
+  venue: NeurIPS Workshop on Critiquing and Correcting Trends in Machine Learning
+  pdf: /publications/RossForde2018.pdf
+
+- title: Improving Sepsis Treatment Strategies by Combining Deep and Kernel-Based Reinforcement Learning
+  year: 2018
+  authors: Xuefeng Peng, Yi Ding, David Wihl, Omer Gottesman, Matthieu Komorowski, Li-wei H. Lehman, Andrew Slavin Ross, Aldo Faisal, and Finale Doshi-Velez
+  venue: AMIA
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371300/
+  pdf: /publications/PengEtAl2018.pdf
+
+- title: Learning Qualitatively Diverse and Interpretable Rules for Classification
+  year: 2018
+  authors: Andrew Slavin Ross*, Weiwei Pan*, and Finale Doshi-Velez
+  venue: ICML Workshop on Human Interpretability in Machine Learning
+  link: https://arxiv.org/abs/1806.08716
+  pdf: /publications/RossPanDoshiVelez2018.pdf
+
+- title: Human-in-the-Loop Interpretability Prior
+  year: 2018
+  authors: Isaac Lage, Andrew Slavin Ross, Been Kim, Samuel J. Gershman, and Finale Doshi-Velez
+  venue: NeurIPS
+  link: https://papers.nips.cc/paper/8219-human-in-the-loop-interpretability-prior
+  pdf: /publications/LageRossKimGershmanDoshiVelez2018.pdf
+
+- title: Training Machine Learning Models by Regularizing their Explanations
+  year: 2018
+  authors: Andrew Slavin Ross
+  venue: Master's Thesis
+  link: https://arxiv.org/abs/1810.00869
+  pdf: /publications/Ross2018.pdf
+
+- title: Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients
+  year: 2018
+  authors: Andrew Slavin Ross and Finale Doshi-Velez
+  venue: AAAI
+  link: https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17337
+  pdf: /publications/RossDoshiVelez2018.pdf
+
+- title: "The Neural LASSO: Local Linear Sparsity for Interpretable Explanations"
+  year: 2017
+  authors: Andrew Slavin Ross*, Isaac Lage*, and Finale Doshi-Velez
+  venue: NeurIPS Workshop on on Transparent and Interpretable Machine Learning in Safety Critical Environments
+  pdf: /publications/RossLageDoshiVelez2017.pdf
+
+- title: "Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations"
+  year: 2017
+  authors: Andrew Slavin Ross, Michael C. Hughes, and Finale Doshi-Velez
+  venue: IJCAI
+  link: https://www.ijcai.org/proceedings/2017/371
+  pdf: /publications/RossHughesDoshiVelez2017.pdf
+
+- title: The Compression and Concentration of Classical and Quantum Information 
+  year: 2011
+  authors: Andrew Slavin Ross and Peter Love
+  venue: Senior Thesis
+  pdf: /publications/RossLove2011.pdf
+
+- title: Hydrodynamic Irreversibility in Particle Suspensions with Non-Uniform Strain
+  year: 2010
+  authors: Jeffrey S. Guasto, Andrew Slavin Ross, and J. P. Gollub
+  venue: Physical Review E
+  link: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.81.061401
+  pdf: /publications/GuastoRossGollub2010.pdf
