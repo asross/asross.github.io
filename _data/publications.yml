@@ -1,7 +1,13 @@
+- title: Ensembles of Locally Independent Prediction Models
+  year: 2020
+  authors: Andrew Slavin Ross, Weiwei Pan, Leo Anthony Celi, and Finale Doshi-Velez
+  venue: AAAI (accepted)
+  preprint: https://arxiv.org/pdf/1911.01291.pdf 
+
 - title: Controlled Direct Effect Priors for Bayesian Neural Networks
   year: 2019
   authors: Andrew Slavin Ross, Jianzhun Du, Yonadav Shavit, and Finale Doshi-Velez
-  venue: NeurIPS Workshop on Bayesian Deep Learning
+  venue: NeurIPS Workshop on Bayesian Deep Learning (accepted)
 
 - title: Tackling Climate Change with Machine Learning
   year: 2019
@@ -16,6 +22,7 @@
   venue: CIDR
   link: http://cidrdb.org/cidr2019/papers/p143-idreos-cidr19.pdf
   pdf: /publications/IdreosEtAl2019.pdf
+  long_version: https://arxiv.org/pdf/1907.05443.pdf
 
 - title: Refactoring Machine Learning
   year: 2018
@@ -36,6 +43,7 @@
   venue: ICML Workshop on Human Interpretability in Machine Learning
   link: https://arxiv.org/abs/1806.08716
   pdf: /publications/RossPanDoshiVelez2018.pdf
+  code: https://github.com/dtak/local-independence-public
 
 - title: Human-in-the-Loop Interpretability Prior
   year: 2018
@@ -57,6 +65,7 @@
   venue: AAAI
   link: https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17337
   pdf: /publications/RossDoshiVelez2018.pdf
+  code: https://github.com/dtak/adversarial-robustness-public
 
 - title: "The Neural LASSO: Local Linear Sparsity for Interpretable Explanations"
   year: 2017
@@ -70,6 +79,7 @@
   venue: IJCAI
   link: https://www.ijcai.org/proceedings/2017/371
   pdf: /publications/RossHughesDoshiVelez2017.pdf
+  code: https://github.com/dtak/rrr
 
 - title: The Compression and Concentration of Classical and Quantum Information 
   year: 2011

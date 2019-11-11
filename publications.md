@@ -33,6 +33,12 @@ title: Publications
       {% if p.code %}
         <a href='{{p.code}}'>[code]</a>
       {% endif %}
+      {% if p.preprint %}
+        <a href='{{p.preprint}}'>[preprint]</a>
+      {% endif %}
+      {% if p.long_version %}
+        <a href='{{p.long_version}}'>[extended version]</a>
+      {% endif %}
     </div>
   </div>
 {% endfor %}
