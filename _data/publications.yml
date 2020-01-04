@@ -1,13 +1,17 @@
 - title: Ensembles of Locally Independent Prediction Models
   year: 2020
   authors: Andrew Slavin Ross, Weiwei Pan, Leo Anthony Celi, and Finale Doshi-Velez
-  venue: AAAI (accepted)
-  preprint: https://arxiv.org/pdf/1911.01291.pdf 
+  venue: AAAI
+  pdf: /publications/RossPanDoshiVelez2019.pdf
+  link: https://arxiv.org/pdf/1911.01291.pdf
+  code: https://github.com/dtak/lit
 
 - title: Controlled Direct Effect Priors for Bayesian Neural Networks
   year: 2019
-  authors: Andrew Slavin Ross, Jianzhun Du, Yonadav Shavit, and Finale Doshi-Velez
-  venue: NeurIPS Workshop on Bayesian Deep Learning (accepted)
+  authors: Jianzhun Du*, Andrew Slavin Ross*, Yonadav Shavit*, and Finale Doshi-Velez
+  venue: NeurIPS Workshop on Bayesian Deep Learning
+  pdf: /publications/DuRossShavitDoshiVelez2019.pdf
+  link: http://bayesiandeeplearning.org/2019/papers/81.pdf
 
 - title: Tackling Climate Change with Machine Learning
   year: 2019
@@ -81,7 +85,7 @@
   pdf: /publications/RossHughesDoshiVelez2017.pdf
   code: https://github.com/dtak/rrr
 
-- title: The Compression and Concentration of Classical and Quantum Information 
+- title: The Compression and Concentration of Classical and Quantum Information
   year: 2011
   authors: Andrew Slavin Ross and Peter Love
   venue: Senior Thesis

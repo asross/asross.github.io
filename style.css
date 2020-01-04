@@ -2207,3 +2207,8 @@ img#wpstats { display: none; }
 .headshot {
   border-radius: 100%;
 }
+
+.headshot-wrapper {
+  float: left;
+  margin-right: 2rem;
+}
