@@ -18,7 +18,7 @@ title: Activities
 
 <h3>Climate Change</h3>
 
-<p>Though not always a fun "activity," I am deeply concerned about climate change and work on several efforts to stop it.</p>
+<p>Though it feels a bit strange to call it an "activity," I am deeply concerned about climate change and work on several efforts to stop it.</p>
 
 <p>On the academic side, I serve on the steering committee for <a href="https://www.climatechange.ai/" target="_blank">Climate Change AI</a>, and have been active in <a href='https://www.facebook.com/HarvardGrEAT/' target='_blank'>several</a> <a href='https://hejc.environment.harvard.edu/' target='_blank'>communities</a> of graduate students thinking seriously about the climate crisis.</p>
 
