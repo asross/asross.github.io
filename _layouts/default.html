@@ -7,6 +7,10 @@
   <meta content='width=device-width, initial-scale=1.0' name='viewport'>
   <link rel="stylesheet" href="{{ 'style.css?v=' | append: site.github.build_revision | relative_url }}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <style>
+    .footer { position: relative; }
+    .easter-egg { position: absolute; bottom: 1rem; right: 1rem; opacity: 0; }
+  </style>
 </head>
 
 <body class="home page-template-default page has-featured-image">
@@ -77,6 +81,7 @@
 
     <div class="footer section large-padding bg-dark">
       <div class="clear"></div>
+      <div class="easter-egg"><a href='/flannel'>Flannel</a></div>
     </div> <!-- /footer -->
       
     <div class="credits">
