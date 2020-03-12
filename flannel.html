@@ -1,6 +1,11 @@
 <html>
   <head>
     <style>
+      #credit {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
       body {
         height: 100%;
         padding: 0;
@@ -88,129 +93,6 @@
         )
       }
 
-      .blackwatch {
-        background: repeating-linear-gradient(-45deg, rgba(0,0,0,.15), rgba(0,0,0,.15) 2px, transparent 2px, transparent 4px) 0 70px, 
-                    linear-gradient(180deg, rgba(0,0,0,.8), rgba(0,0,0,.8) 1px, rgba(19,89,70,.5) 1px, rgba(19,89,70,.5) 14px, transparent 14px, transparent 70px, rgba(19,89,70,.5) 70px) 0 0,
-                    linear-gradient(90deg,rgba(0,0,0,.7), rgba(0,0,0,.7) 1px, rgba(19,89,70,.5) 1px, rgba(19,89,70,.5) 14px, transparent 14px, transparent 70px, rgba(19,89,70,.5) 70px) 0 0,
-                    linear-gradient(180deg, transparent, transparent 40px, rgba(0,0,0,.2) 40px, rgba(0,0,0,.2) 41px, rgba(0,0,0,.5) 41px, rgba(0,0,0,.5) 43px,  rgba(0,0,0,.2) 43px, rgba(0,0,0,.2) 44px, transparent 44px) 0 0,
-                    linear-gradient(90deg, transparent, transparent 40px, rgba(0,0,0,.2) 40px, rgba(0,0,0,.2) 41px, rgba(0,0,0,.5) 41px, rgba(0,0,0,.5) 43px,  rgba(0,0,0,.2) 43px, rgba(0,0,0,.2) 44px, transparent 44px) 0 0,
-                    linear-gradient(180deg, transparent, transparent 28px, rgba(0,0,80,.75) 28px, rgba(0,0,80,.75) 56px, transparent 56px) 0 0,
-                    linear-gradient(90deg, rgba(0,0,80,.2), rgba(0,0,80,.2) 28px, rgba(0,0,80,.6) 28px, rgba(0,0,80,.6) 56px, rgba(0,0,80,.2) 56px) 0 0,
-                    linear-gradient(180deg, rgba(0,0,80,.2), rgba(0,0,80,.2) 28px, rgba(0,0,80,.6) 28px, rgba(0,0,80,.6) 56px, rgba(0,0,80,.2) 56px) 0 0;
-        background-color: black;
-        color: white;
-        background-size: 84px 84px;
-      }
-
-      .bluegreen {
-        background-color: #000;
-
-        background-image: 
-          linear-gradient(
-            90deg,
-            transparent 10%,
-            rgba(0, 0, 90, 0.3) 10%,
-            rgba(0, 0, 90, 0.3) 20%,
-            transparent 20%,
-            transparent 22%,
-            rgba(0, 0, 90, 0.3) 22%,
-            rgba(0, 0, 90, 0.3) 32%,
-            transparent 32%,
-
-            transparent 62%,
-            rgba(0, 0, 90, 0.3) 62%,
-            rgba(0, 0, 90, 0.3) 64%,
-            transparent 64%,
-            transparent 66%, 
-            rgba(0, 0, 90, 0.3) 66%,
-            rgba(0, 0, 90, 0.3) 68%,
-            transparent 68%,
-            transparent 70%,
-            rgba(0, 0, 90, 0.3) 70%,
-            rgba(0, 0, 90, 0.3) 80%,
-            transparent 80%,
-            transparent 82%,
-            rgba(0, 0, 90, 0.3) 82%,
-            rgba(0, 0, 90, 0.3) 84%,
-            transparent 84%,
-            transparent 86%,
-            rgba(0, 0, 90, 0.3) 86%,
-            rgba(0, 0, 90, 0.3) 88%,
-            transparent 88%
-          ),
-          linear-gradient(
-            transparent 10%,
-            rgba(0, 0, 90, 0.3) 10%,
-            rgba(0, 0, 90, 0.3) 20%,
-            transparent 20%,
-            transparent 22%,
-            rgba(0, 0, 90, 0.3) 22%,
-            rgba(0, 0, 90, 0.3) 32%,
-            transparent 32%,
-
-            transparent 62%,
-            rgba(0, 0, 90, 0.3) 62%,
-            rgba(0, 0, 90, 0.3) 64%,
-            transparent 64%,
-            transparent 66%, 
-            rgba(0, 0, 90, 0.3) 66%,
-            rgba(0, 0, 90, 0.3) 68%,
-            transparent 68%,
-            transparent 70%,
-            rgba(0, 0, 90, 0.3) 70%,
-            rgba(0, 0, 90, 0.3) 80%,
-            transparent 80%,
-            transparent 82%,
-            rgba(0, 0, 90, 0.3) 82%,
-            rgba(0, 0, 90, 0.3) 84%,
-            transparent 84%,
-            transparent 86%,
-            rgba(0, 0, 90, 0.3) 86%,
-            rgba(0, 0, 90, 0.3) 88%,
-            transparent 88%
-          ),
-          linear-gradient(
-            transparent 0%,
-            rgba(0, 70, 0, 0.3) 0%,
-            rgba(0, 70, 0, 0.3) 6%,
-            transparent 6%,
-            transparent 36%,
-            rgba(0, 70, 0, 0.3) 36%,
-            rgba(0, 70, 0, 0.3) 46%,
-            transparent 46%,
-            transparent 48%,
-            rgba(0, 70, 0, 0.3) 48%,
-            rgba(0, 70, 0, 0.3) 58%,
-            transparent 58%,
-            transparent 92%,
-            rgba(0, 70, 0, 0.3) 92%,
-            rgba(0, 70, 0, 0.3) 98%,
-            transparent 98%
-          ),
-          linear-gradient(
-            90deg,
-            transparent 0%,
-            rgba(0, 70, 0, 0.3) 0%,
-            rgba(0, 70, 0, 0.3) 6%,
-            transparent 6%,
-            transparent 36%,
-            rgba(0, 70, 0, 0.3) 36%,
-            rgba(0, 70, 0, 0.3) 46%,
-            transparent 46%,
-            transparent 48%,
-            rgba(0, 70, 0, 0.3) 48%,
-            rgba(0, 70, 0, 0.3) 58%,
-            transparent 58%,
-            transparent 92%,
-            rgba(0, 70, 0, 0.3) 92%,
-            rgba(0, 70, 0, 0.3) 98%,
-            transparent 98%
-          )
-        ;
-
-        background-size: 500px 500px;
-      }
-
       .button {
         background: #4d6b61;
         border: 0;
@@ -280,22 +162,123 @@
   <body id='body' class='blackwatch'>
     <h1>THE FLANNEL CHANNEL</h1>
     <button class='button' id='playpause'>PLAY</button>
+    <small id='credit'><a target='_blank' href='https://twitter.com/MarcusConnorNH/status/1050760279460593665'>cr</a> <a target='_blank' href='https://leaverou.github.io/css3patterns/'>ed</a> <a target='_blank' href='https://codepen.io/code-and-pixels/pen/RrpMqB'>it</a></small>
   </body>
 
   <script>
     var but = document.getElementById('playpause');
     var bod = document.getElementById('body');
     var int = null;
-    var types = ['bluegreen','tartan','madras','redplaid','blackwatch'];
+    var idx = 0;
+    var wardrobe = ['blackwatch','tartan','random5','bluegreen','blackwatch','random1','random2','redplaid','bluegreen','random3','madras','random4'];
+
+    var makePattern1 = (c1, c2, size, name) => {
+      const css = `
+        .${name} {
+          background-color: #000;
+
+          background-image:
+            linear-gradient(
+              90deg,
+              transparent 10%, ${c1} 10%, ${c1} 20%, transparent 20%,
+              transparent 22%, ${c1} 22%, ${c1} 32%, transparent 32%,
+              transparent 62%, ${c1} 62%, ${c1} 64%, transparent 64%,
+              transparent 66%, ${c1} 66%, ${c1} 68%, transparent 68%,
+              transparent 70%, ${c1} 70%, ${c1} 80%, transparent 80%,
+              transparent 82%, ${c1} 82%, ${c1} 84%, transparent 84%,
+              transparent 86%, ${c1} 86%, ${c1} 88%, transparent 88%
+            ),
+            linear-gradient(
+              transparent 10%, ${c1} 10%, ${c1} 20%, transparent 20%,
+              transparent 22%, ${c1} 22%, ${c1} 32%, transparent 32%,
+              transparent 62%, ${c1} 62%, ${c1} 64%, transparent 64%,
+              transparent 66%, ${c1} 66%, ${c1} 68%, transparent 68%,
+              transparent 70%, ${c1} 70%, ${c1} 80%, transparent 80%,
+              transparent 82%, ${c1} 82%, ${c1} 84%, transparent 84%,
+              transparent 86%, ${c1} 86%, ${c1} 88%, transparent 88%
+            ),
+            linear-gradient(
+              transparent 0%, ${c2} 0%, ${c2} 6%, transparent 6%,
+              transparent 36%, ${c2} 36%, ${c2} 46%, transparent 46%,
+              transparent 48%, ${c2} 48%, ${c2} 58%, transparent 58%,
+              transparent 92%, ${c2} 92%, ${c2} 98%, transparent 98%
+            ),
+            linear-gradient(
+              90deg,
+              transparent 0%, ${c2} 0%, ${c2} 6%, transparent 6%,
+              transparent 36%, ${c2} 36%, ${c2} 46%, transparent 46%,
+              transparent 48%, ${c2} 48%, ${c2} 58%, transparent 58%,
+              transparent 92%, ${c2} 92%, ${c2} 98%, transparent 98%
+            )
+          ;
+
+          background-size: ${size}px ${size}px;
+        }
+      `;
+      const style = document.createElement("style");
+      style.innerHTML = css;
+      document.body.appendChild(style);
+    };
+
+    var makePattern2 = (c1, c2, size, name) => {
+      const css = `
+        .${name} {
+          background:
+            repeating-linear-gradient(-45deg,
+              rgba(0,0,0,.15), rgba(0,0,0,.15) 2px, transparent 2px, transparent 4px
+            ) 0 83.33%,
+            linear-gradient(180deg,
+              rgba(0,0,0,.8), rgba(0,0,0,.8) 1px, ${c1} 1px, ${c1} 16.67%, transparent 16.67%, transparent 83.33%, ${c1} 83.33%
+            ) 0 0,
+            linear-gradient(90deg,
+              rgba(0,0,0,.7), rgba(0,0,0,.7) 1px, ${c1} 1px, ${c1} 16.67%, transparent 16.67%, transparent 83.33%, ${c1} 83.33%
+            ) 0 0,
+            linear-gradient(180deg,
+              transparent, transparent 47.62%, rgba(0,0,0,.2) 47.62%, rgba(0,0,0,.2) calc(47.62% + 1px), rgba(0,0,0,.5) calc(47.62% + 1px), rgba(0,0,0,.5) calc(47.62% + 3px),  rgba(0,0,0,.2) calc(47.62% + 3px), rgba(0,0,0,.2) calc(47.62% + 4px), transparent calc(47.62% + 4px)
+            ) 0 0,
+            linear-gradient(90deg,
+              transparent, transparent 47.62%, rgba(0,0,0,.2) 47.62%, rgba(0,0,0,.2) calc(47.62% + 1px), rgba(0,0,0,.5) calc(47.62% + 1px), rgba(0,0,0,.5) calc(47.62% + 3px),  rgba(0,0,0,.2) calc(47.62% + 3px), rgba(0,0,0,.2) calc(47.62% + 4px), transparent calc(47.62% + 4px)
+            ) 0 0,
+            linear-gradient(180deg,
+              transparent, transparent 33.33%, rgba(${c2},.75) 33.33%, rgba(${c2},.75) 66.67%, transparent 66.67%
+            ) 0 0,
+            linear-gradient(90deg,
+              rgba(${c2},.2), rgba(${c2},.2) 33.33%, rgba(${c2},.6) 33.33%, rgba(${c2},.6) 66.67%, rgba(${c2},.2) 66.67%
+            ) 0 0,
+            linear-gradient(180deg,
+              rgba(${c2},.2), rgba(${c2},.2) 33.33%, rgba(${c2},.6) 33.33%, rgba(${c2},.6) 66.67%, rgba(${c2},.2) 66.67%
+            ) 0 0;
+          background-color: black;
+          color: white;
+          background-size: ${size}px ${size}px;
+        }
+      `;
+      const style = document.createElement("style");
+      style.innerHTML = css;
+      document.body.appendChild(style);
+    };
+
+    r_0_255 = () => parseInt(Math.random()*255);
+    r_100_1000 = () => parseInt(Math.random()*900) + 100;
+    r_50_250 = () => parseInt(Math.random()*200) + 50;
+    rgb_color = () => `${r_0_255()}, ${r_0_255()}, ${r_0_255()}`;
+    r_color_pt3 = () => `rgba(${rgb_color()}, 0.3)`;
+    r_color_pt5 = () => `rgba(${rgb_color()}, 0.5)`;
+
+    makePattern1('rgba(0, 0, 90, 0.3)', 'rgba(0, 70, 0, 0.3)', '500', 'bluegreen');
+    makePattern1(r_color_pt3(), r_color_pt3(), r_100_1000(), 'random1');
+    makePattern1(r_color_pt3(), r_color_pt3(), r_100_1000(), 'random2');
+    makePattern1(r_color_pt3(), r_color_pt3(), r_100_1000(), 'random3');
+
+    makePattern2('rgba(19,89,70,.5)', '0,0,80', '84', 'blackwatch');
+    makePattern2(r_color_pt5(), rgb_color(), r_50_250(), 'random4');
+    makePattern2(r_color_pt5(), rgb_color(), r_50_250(), 'random5');
+    makePattern2(r_color_pt5(), rgb_color(), r_50_250(), 'random6');
 
     var changeClothes = () => {
-      while (true) {
-        var i = Math.floor(Math.random() * types.length);
-        if (types[i] != bod.className) {
-          bod.className = types[i];
-          break;
-        }
-      }
+      idx = (idx + 1) % wardrobe.length;
+      bod.className = wardrobe[idx];
+
     };
 
     but.onclick = () => {

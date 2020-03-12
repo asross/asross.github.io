@@ -5,7 +5,7 @@ title: Activities
 
 <h3>Choral Singing</h3>
 
-<p>Currently, I sing with and maintain the website for <a href='https://voicelab.us' target='_blank'>Harvard VoiceLab</a>, Harvard University's premier (and only) graduate student a cappella group. Sometimes I do a bit of <a href='https://www.youtube.com/watch?v=jugUBL4rEIM&t=1s' target='_blank'>singing in my lab</a>, as well.</p>
+<p>Currently, I sing with <a href='https://voicelab.us' target='_blank'>Harvard VoiceLab</a>, Harvard University's premier (and only) graduate student a cappella group. Sometimes I do a bit of <a href='https://www.youtube.com/watch?v=jugUBL4rEIM&t=1s' target='_blank'>singing in my lab</a>, too.</p>
 
 <p>Previously, I used to perform with the <a href='https://www.bostonchoral.org/' target='_blank'>Boston Choral Ensemble</a> and the <a href='https://soundcloud.com/haverford-s-chords' target='_blank'>'Ford S-Chords</a>, which I musically directed for several years.
 </p>
@@ -14,7 +14,7 @@ title: Activities
 
 <p>During my time at Vermonster, I was active in the open-source community, developing a library for <a href='https://github.com/asross/repor' target='_blank'>online analytical processing</a> and contributing to many others, including the <a href='https://www.hl7.org/fhir/overview.html' target='_blank'>FHIR standard</a>.</p>
 
-<p>During my PhD, I've open-sourced both <a href='https://github.com/dtak/rrr' target='_blank'>research</a> <a href='https://github.com/dtak/adversarial-robustness-public' target='_blank'>project</a> <a href='https://github.com/dtak/lit' target='_blank'>code</a> and code I write to help me <a href='https://github.com/asross/c_utest' target='_blank'>check</a> <a href='https://github.com/asross/sample_space' target='_blank'>my</a> <a href='https://github.com/asross/surf' target='_blank'>homework</a>. For some reason, I also wrote a command line interface for <a href='https://github.com/asross/settlers' target='_blank'>Settlers of Catan</a>.</p>
+<p>During my PhD, I've open-sourced both <a href='https://github.com/dtak/rrr' target='_blank'>research</a> <a href='https://github.com/dtak/adversarial-robustness-public' target='_blank'>project</a> <a href='https://github.com/dtak/lit' target='_blank'>code</a> and code to <a href='https://github.com/asross/c_utest' target='_blank'>help</a> <a href='https://github.com/asross/sample_space' target='_blank'>check</a> <a href='https://github.com/asross/surf' target='_blank'>homework</a>. For some reason, I also wrote a command line interface for <a href='https://github.com/asross/settlers' target='_blank'>Settlers of Catan</a>.</p>
 
 <h3>Climate Change</h3>
 
