@@ -1,8 +1,9 @@
-- title: Generating Interpretable Predictions about Antidepressant Treatment Stability using Supervised Topic Models
+- title: Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
   year: 2020
   authors: Michael C. Hughes, Melanie F. Pradier, Andrew Slavin Ross, Thomas H. McCoy Jr., Roy H. Perlis, and Finale Doshi-Velez
-  venue: JAMA Psychiatry (forthcoming)
-  preprint: https://www.medrxiv.org/content/10.1101/2020.03.18.20038232v1
+  venue: JAMA Psychiatry
+  pdf: /publications/HughesEtAl2020.pdf
+  link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073
 
 - title: Ensembles of Locally Independent Prediction Models
   year: 2020
