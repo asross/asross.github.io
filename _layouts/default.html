@@ -87,7 +87,7 @@
     <div class="credits">
       <div class="credits-inner">
         <p class="credits-left">
-          © 2019 <a href="/" title="Andrew Slavin Ross">Andrew Slavin Ross</a>
+        © <span id='current-year'></span> <a href="/" title="Andrew Slavin Ross">Andrew Slavin Ross</a>
         </p>
         
         <p class="credits-right">
@@ -106,6 +106,7 @@
 
 <script>
   jQuery(document).ready(function($) {
+    $('#current-year').text(new Date().getFullYear());
     // Toggle mobile-menu
     $(".nav-toggle").on("click", function(){
       $(this).toggleClass("active");
