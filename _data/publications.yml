@@ -1,3 +1,11 @@
+- title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
+  year: 2021
+  authors: Andrew Slavin Ross, Nina Chen, Elisa Zhao Hang, Elena L. Glassman, and Finale Doshi-Velez
+  venue: ACM CHI Conference on Human Factors in Computing Systems
+  pdf: /publications/RossEtAl2021.pdf
+  link: https://arxiv.org/pdf/2102.01264.pdf
+  code: https://github.com/dtak/interactive-reconstruction
+
 - title: Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
   year: 2020
   authors: Michael C. Hughes, Melanie F. Pradier, Andrew Slavin Ross, Thomas H. McCoy Jr., Roy H. Perlis, and Finale Doshi-Velez
@@ -10,7 +18,7 @@
   authors: Andrew Slavin Ross, Weiwei Pan, Leo Anthony Celi, and Finale Doshi-Velez
   venue: AAAI
   pdf: /publications/RossPanDoshiVelez2019.pdf
-  link: https://arxiv.org/pdf/1911.01291.pdf
+  link: https://ojs.aaai.org//index.php/AAAI/article/view/6004
   code: https://github.com/dtak/lit
 
 - title: Controlled Direct Effect Priors for Bayesian Neural Networks
