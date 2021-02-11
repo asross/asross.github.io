@@ -1,9 +1,16 @@
+- title: Benchmarks, Algorithms, and Metrics for Hierarchical Disentanglement
+  year: 2021
+  authors: Andrew Slavin Ross and Finale Doshi-Velez
+  venue: arXiv preprint
+  link: https://arxiv.org/abs/2102.05185
+  code: https://github.com/dtak/hierarchical-disentanglement
+
 - title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
   year: 2021
   authors: Andrew Slavin Ross, Nina Chen, Elisa Zhao Hang, Elena L. Glassman, and Finale Doshi-Velez
   venue: ACM CHI Conference on Human Factors in Computing Systems
   pdf: /publications/RossEtAl2021.pdf
-  link: https://arxiv.org/pdf/2102.01264.pdf
+  link: https://arxiv.org/abs/2102.01264
   code: https://github.com/dtak/interactive-reconstruction
 
 - title: Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
@@ -41,7 +48,7 @@
   venue: CIDR
   link: http://cidrdb.org/cidr2019/papers/p143-idreos-cidr19.pdf
   pdf: /publications/IdreosEtAl2019.pdf
-  long_version: https://arxiv.org/pdf/1907.05443.pdf
+  long_version: https://arxiv.org/abs/1907.05443
 
 - title: Refactoring Machine Learning
   year: 2018
