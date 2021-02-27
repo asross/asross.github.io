@@ -6,6 +6,7 @@
     %link{rel: 'stylesheet', type: 'text/css', href: 'normalize.css'}
     %link{rel: 'stylesheet', type: 'text/css', href: 'cv.css'}
     %link{rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Enriqueta:400,700'}
+    %link{rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'}
   :ruby
     sections = [{
       title: 'Education',
@@ -32,18 +33,10 @@
       items: [{
         who: 'Google',
         what: 'Software Engineering Intern',
-        when: 'May 2018 - Aug 2018',
-        where: 'Cambridge, MA',
+        when: 'May 2018 - Aug 2019',
+        where: 'Mountain View, CA and Cambridge, MA',
         how: [
-          'Co-wrote a <a href="https://github.com/PAIR-code/federated-learning">library for federated learning</a> with the People + AI Research team at Google Brain. Made open-source contributions to Tensorflow.js.'
-        ]
-      }, {
-        who: 'Google',
-        what: 'Software Engineering Intern',
-        when: 'May 2017 - Aug 2017',
-        where: 'Mountain View, CA',
-        how: [
-          'Developed features in an OLAP service powering Google reporting applications. Devised and implemented Bayesian predictive caching techniques.'
+          'In, 2018, developed features in an OLAP service powering Google reporting applications. Devised and implemented Bayesian predictive caching techniques. In 2019, co-wrote a <a href="https://github.com/PAIR-code/federated-learning">library for federated learning</a> with the People + AI Research team at Google Brain. Made open-source contributions to Tensorflow.js.'
         ]
       }, {
         who: 'Vermonster LLC',
@@ -118,35 +111,22 @@
     }, {
       title: 'Other',
       items: [{
-        who: 'Professional Service',
-        how: [
-          '2021 - ACM CHI (special recognition for outstanding review)',
-          '2020 - NeurIPS Workshop on Tackling Climate Change with Machine Learning (meta-reviewer)',
-          '2020 - NeurIPS',
-          '2020 - ICML (<a href="https://icml.cc/Conferences/2020/Reviewers">top reviewer</a>)',
-          '2020 - ICLR Workshop on Tackling Climate Change with Machine Learning (<a href="https://www.climatechange.ai/events/iclr2020.html#organizers">co-organizer</a>)',
-          '2020 - ICLR (emergency reviewer)',
-          '2020 - NeurIPS Reproducibility Challenge',
-          '2019 - NeurIPS Workshop on Tackling Climate Change with Machine Learning',
-          '2019 - NeurIPS (<a href="https://neurips.cc/Conferences/2019/Reviewers">top reviewer</a>)',
-          '2019 - ICML (<a href="https://icml.cc/Conferences/2019/Reviewers">best reviewer</a>)',
-          '2019 - IEEE VIS',
-          '2019 - ICLR DebugML Workshop',
-          '2019 - AISTATS'
-        ]
-      }, {
         who: 'Selected Projects',
         how: [
-          '<a href="https://www.climatechange.ai/">climatechange.ai</a>: Core team member',
-          '<a href="https://www.sunrisemovement.org/hubs">sunrisemovement.org/hubs</a> and <a href="https://www.sunrisemovement.org/sunrise-events">sunrisemovement.org/sunrise-events</a>: Climate action mobilization tools',
+          '<a href="https://www.climatechange.ai/">climatechange.ai</a>: Founding core team member and website lead',
+          '<a href="https://www.sunrisemovement.org/hubs">sunrisemovement.org/hubs</a>: Lead developer and data architect',
           '<a href="https://github.com/asross/repor">github.com/asross/repor</a>: OLAP data aggregation framework',
-          '<a href="https://github.com/asross/settlers">github.com/asross/settlers</a>: Settlers of Catan CLI',
-          '<a href="http://babyname-visualization.s3-website-us-east-1.amazonaws.com/">bit.ly/babyname-viz</a>: Interactive visualization of US baby name popularity'
+          '<a href="https://github.com/asross/settlers">github.com/asross/settlers</a>: Settlers of Catan webapp and command-line interface',
+          '<a href="http://babyname-visualization.s3-website-us-east-1.amazonaws.com/">bit.ly/babyname-viz</a>: Interactive visualization of US baby name popularity',
+          '<a href="https://dtak.github.io/bayesonce">dtak.github.io/bayesonce</a>: Lead singer and audio engineer'
         ]
       }, {
         who: 'Honors and Awards',
         how: [
+          '<a href="https://icml.cc/Conferences/2020/Reviewers">Top Reviewer Award</a>, ICML 2020',
           'Courtlandt S. Gross Memorial Scholarship, 2019-2020',
+          '<a href="https://neurips.cc/Conferences/2019/Reviewers">Top Reviewer Award</a>, NeurIPS 2019',
+          '<a href="https://icml.cc/Conferences/2019/Reviewers">Best Reviewer Award</a>, ICML 2019',
           'Harvard IACS Student Scholarship, 2017-2018',
           'Phi Beta Kappa, 2011',
           'Haverford Freshman Math Prize, 2008'
@@ -160,7 +140,18 @@
         .label Contact
         .details
           .left
-            %a{href: 'mailto:andrew_ross@g.harvard.edu'} andrew_ross@g.harvard.edu
+            %i.fa.fa-globe
+            %a{href: 'https://asross.github.io'}
+              asross.github.io
+            %br
+            %i.fa.fa-envelope
+            %a{href: 'mailto:andrew_ross@g.harvard.edu'}
+              andrew_ross@g.harvard.edu
+            %br
+            %i.fa.fa-github
+            %a{href: 'https://github.com/asross'}
+              github.com/asross
+
       - sections.each do |s|
         %section
           .label= s[:title]
