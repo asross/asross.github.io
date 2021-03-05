@@ -14,7 +14,7 @@ title: Publications
 }
 </style>
 
-<!--Most are also listed on <a href='https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en' target='_blank'>Google Scholar</a>.-->
+Most are also listed on <a href='https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en' target='_blank'>Google Scholar</a>.
 
 {% for p in site.data.publications %}
   <div class='publication'>
