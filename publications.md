@@ -12,9 +12,15 @@ title: Publications
   opacity: 0.75;
   font-size: 1rem;
 }
+
+.scholar {
+  margin-top: -1rem;
+}
 </style>
 
-Most are also listed on <a href='https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en' target='_blank'>Google Scholar</a>.
+<p class='scholar'>
+  Most are also listed on <a href='https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en' target='_blank'>Google Scholar</a>.
+</p>
 
 {% for p in site.data.publications %}
   <div class='publication'>
