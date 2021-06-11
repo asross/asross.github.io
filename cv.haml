@@ -12,8 +12,8 @@
       title: 'Education',
       items: [{
         who: 'Harvard University',
-        what: 'M.E. in Computational Science and Engineering (graduated May 2018)<br>Ph.D. in Computer Science (expected graduation May 2021)',
-        when: 'Aug 2016 - present',
+        what: 'Ph.D. in Computer Science (May 2021)<br>M.E. in Computational Science and Engineering (May 2018)',
+        when: 'Aug 2016 - May 2021',
         where: 'Cambridge, MA',
         how: [
           'Research on optimizing machine learning models to be interpretable and consistent with expert knowledge.'
@@ -25,7 +25,7 @@
         where: 'Haverford, PA',
         how: [
           'Graduated <em>magna cum laude</em>',
-          'Research on irreversibility in fluid dynamics and quantum information theory.'
+          'Research on fluid dynamics and quantum information theory.'
         ]
       }]
     }, {
@@ -36,7 +36,7 @@
         when: 'May 2018 - Aug 2019',
         where: 'Mountain View, CA and Cambridge, MA',
         how: [
-          'In, 2018, developed features in an OLAP service powering Google reporting applications. Devised and implemented Bayesian predictive caching techniques. In 2019, co-wrote a <a href="https://github.com/PAIR-code/federated-learning">library for federated learning</a> with the People + AI Research team at Google Brain. Made open-source contributions to <a href="https://www.tensorflow.org/js/">Tensorflow.js</a>.'
+          'In 2018, developed Bayesian predictive caching techniques in an OLAP service powering reporting applications. In 2019, co-wrote a <a href="https://github.com/PAIR-code/federated-learning">library for federated learning</a> with the People + AI Research team and made open-source contributions to <a href="https://www.tensorflow.org/js/">Tensorflow.js</a>.'
         ]
       }, {
         who: 'Vermonster LLC',
@@ -52,12 +52,13 @@
       items: [{
         who: 'Selected Publications',
         how: [
-          '<a href="https://www.ijcai.org/Proceedings/2017/0371.pdf">Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations</a>, ICJAI 2017 (200+ citations).',
-          '<a href="https://ojs.aaai.org/index.php/AAAI/article/view/11504">Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients</a>, AAAI 2018 (250+ citations).',
-          '<a href="https://dl.acm.org/doi/abs/10.5555/3327546.3327680">Human-in-the-loop Interpretability Prior</a>, NeurIPS 2018 (50+ citations).',
-          '<a href="https://arxiv.org/abs/1906.05433">Tackling Climate Change with Machine Learning</a>, 2019 (150+ citations).',
+          '<a href="https://www.ijcai.org/Proceedings/2017/0371.pdf">Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations</a>, ICJAI 2017.',
+          '<a href="https://ojs.aaai.org/index.php/AAAI/article/view/11504">Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients</a>, AAAI 2018.',
+          '<a href="https://dl.acm.org/doi/abs/10.5555/3327546.3327680">Human-in-the-loop Interpretability Prior</a>, NeurIPS 2018.',
+          '<a href="https://arxiv.org/abs/1906.05433">Tackling Climate Change with Machine Learning</a>, 2019.',
           '<a href="https://arxiv.org/abs/1911.01291">Ensembles of Locally Independent Prediction Models</a>, AAAI 2020.',
-          '<a href="https://arxiv.org/abs/2102.01264">Evaluating the Interpretability of Generative Models by Interactive Reconstruction</a>, ACM CHI 2021.',
+          '<a href="https://dl.acm.org/doi/10.1145/3411764.3445296">Evaluating the Interpretability of Generative Models by Interactive Reconstruction</a>, ACM CHI 2021 (Honorable Mention).',
+          '<a href="https://arxiv.org/abs/2102.05185">Benchmarks, Algorithms, and Metrics for Hierarchical Disentanglement</a>, ICML 2021.',
           'See a full list at <a href="https://asross.github.io/publications">asross.github.io/publications</a> or <a href="https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en">Google Scholar</a>.'
         ]
       }, {
@@ -65,14 +66,14 @@
         how: [
           '<a href="https://www.climatechange.ai/">climatechange.ai</a>: Founding core team member and website lead',
           '<a href="https://www.sunrisemovement.org/hubs">sunrisemovement.org/hubs</a>: Lead developer and data architect',
-          '<a href="https://github.com/asross/repor">github.com/asross/repor</a>: OLAP data aggregation framework',
           '<a href="https://github.com/asross/settlers">github.com/asross/settlers</a>: Settlers of Catan webapp and command-line interface',
-          '<a href="http://babyname-visualization.s3-website-us-east-1.amazonaws.com/">bit.ly/babyname-viz</a>: Interactive visualization of US baby name popularity',
           '<a href="https://dtak.github.io/bayesonce">dtak.github.io/bayesonce</a>: Lead singer and audio engineer'
         ]
       }, {
         who: 'Honors and Awards',
         how: [
+          'Harvard Computer Science Outstanding Ph.D. Dissertation Award, 2021',
+          'Special Recognition for Outstanding Review, ACM CHI 2021',
           'Top Reviewer Award, <a href="https://neurips.cc/Conferences/2019/Reviewers">NeurIPS 2019</a> and <a href="https://icml.cc/Conferences/2020/Reviewers">ICML 2020</a>',
           'Best Reviewer Award, <a href="https://icml.cc/Conferences/2019/Reviewers">ICML 2019</a>',
           'Courtlandt S. Gross Memorial Scholarship, 2019-2020',
@@ -103,12 +104,6 @@
             %i.fa.fa-github
             %a{href: 'https://github.com/asross'}
               github.com/asross
-
-      %section
-        .label Summary
-        .details
-          .clearfix
-            Graduating PhD candidate in interpretable machine learning with a solid background in full-stack software development. Seeking opportunities where I can apply my technical skills to serve the public good and address the climate crisis.
 
       - sections.each do |s|
         %section{class: s[:title]}

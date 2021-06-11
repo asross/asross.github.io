@@ -69,9 +69,7 @@ a:visited {
 
 @media print {
   body {
-    margin-top: 1em !important;
-    margin-left: 1.5em !important;
-    margin-right: 1.5em !important;
+    margin: 2.5em !important;
     margin-bottom: 0 !important;
     font-size: 11px; }
 
