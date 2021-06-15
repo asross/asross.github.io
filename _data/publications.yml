@@ -9,7 +9,8 @@
 - title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
   year: 2021
   authors: Andrew Slavin Ross, Nina Chen, Elisa Zhao Hang, Elena L. Glassman, and Finale Doshi-Velez
-  venue: 🏆 Honorable Mention at ACM CHI
+  venue: |-
+    <span style='font-style: normal'>🏆</span> Honorable Mention at ACM CHI
   pdf: /publications/RossEtAl2021.pdf
   link: https://dl.acm.org/doi/10.1145/3411764.3445296
   code: https://github.com/dtak/interactive-reconstruction
