@@ -6,6 +6,12 @@
   link: https://arxiv.org/abs/2102.05185
   code: https://github.com/dtak/hierarchical-disentanglement
 
+- title: 'Right for the Right Reasons: Training Neural Networks to be Interpretable, Robust, and Consistent with Expert Knowledge'
+  year: 2021
+  authors: Andrew Slavin Ross
+  venue: PhD Thesis
+  pdf: /publications/Dissertation.pdf
+
 - title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
   year: 2021
   authors: Andrew Slavin Ross, Nina Chen, Elisa Zhao Hang, Elena L. Glassman, and Finale Doshi-Velez
