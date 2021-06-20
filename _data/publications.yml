@@ -5,12 +5,14 @@
   pdf: /publications/RossDoshiVelez2021.pdf
   link: https://arxiv.org/abs/2102.05185
   code: https://github.com/dtak/hierarchical-disentanglement
+  slides: https://docs.google.com/presentation/d/1gVTpHsbOHpOpvUDcbq6lvaf6DGaMueV60E6t6ha0Ikk/edit?usp=sharing
 
 - title: 'Right for the Right Reasons: Training Neural Networks to be Interpretable, Robust, and Consistent with Expert Knowledge'
   year: 2021
   authors: Andrew Slavin Ross
   venue: PhD Thesis
   pdf: /publications/Dissertation.pdf
+  slides: https://docs.google.com/presentation/d/13kv2PE1rp6IcAeJu1qXZ0QubrkmZFRqkBDTyv676IGE/edit?usp=sharing
 
 - title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
   year: 2021
@@ -20,6 +22,7 @@
   pdf: /publications/RossEtAl2021.pdf
   link: https://dl.acm.org/doi/10.1145/3411764.3445296
   code: https://github.com/dtak/interactive-reconstruction
+  slides: https://docs.google.com/presentation/d/1xAnQn84vPz_4JJfDGZ1l0tV0jvlTjK5i2qfq6u8598E/edit?usp=sharing
 
 - title: Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
   year: 2020
@@ -35,6 +38,7 @@
   pdf: /publications/RossPanDoshiVelez2019.pdf
   link: https://ojs.aaai.org//index.php/AAAI/article/view/6004
   code: https://github.com/dtak/lit
+  poster: https://docs.google.com/presentation/d/1JJhuHujvZTwNR-5MOafxvcMHtss5YDoJ0ti-fw07P7k/edit#slide=id.p
 
 - title: Controlled Direct Effect Priors for Bayesian Neural Networks
   year: 2019
@@ -42,6 +46,7 @@
   venue: NeurIPS Workshop on Bayesian Deep Learning
   pdf: /publications/DuRossShavitDoshiVelez2019.pdf
   link: http://bayesiandeeplearning.org/2019/papers/81.pdf
+  slides: https://drive.google.com/file/d/1jCWLOYHHS04WVGPLZNtIGhqXiOG5VNjv/view?usp=sharing
 
 - title: Tackling Climate Change with Machine Learning
   year: 2019
@@ -78,6 +83,7 @@
   link: https://arxiv.org/abs/1806.08716
   pdf: /publications/RossPanDoshiVelez2018.pdf
   code: https://github.com/dtak/local-independence-public
+  slides: https://docs.google.com/presentation/d/1TK7lIaILxuPttdi6Pbm0SR2UpA_FrbmzOEkZa_lUApQ/edit?usp=sharing
 
 - title: Human-in-the-Loop Interpretability Prior
   year: 2018
@@ -92,6 +98,7 @@
   venue: Master's Thesis
   link: https://arxiv.org/abs/1810.00869
   pdf: /publications/Ross2018.pdf
+  slides: https://docs.google.com/presentation/d/1Wg1d_kzAEGyO3Gl8YhNini9QcQCed_MWzn9Md5XhifE/edit?usp=sharing
 
 - title: Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients
   year: 2018
@@ -100,6 +107,7 @@
   link: https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17337
   pdf: /publications/RossDoshiVelez2018.pdf
   code: https://github.com/dtak/adversarial-robustness-public
+  slides: https://docs.google.com/presentation/d/1_EVsLRQz5E_Yg-f_OkXyJrvGpviRTti3lKLbYMojBBs/edit#slide=id.p
 
 - title: "The Neural LASSO: Local Linear Sparsity for Interpretable Explanations"
   year: 2017
@@ -114,6 +122,7 @@
   link: https://www.ijcai.org/proceedings/2017/371
   pdf: /publications/RossHughesDoshiVelez2017.pdf
   code: https://github.com/dtak/rrr
+  slides: https://docs.google.com/presentation/d/1__0xSIvLOEEAN44VXLUvHTjGrsZvmrbhaO0s3FozKwI/edit?usp=sharing
 
 - title: The Compression and Concentration of Classical and Quantum Information
   year: 2011

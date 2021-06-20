@@ -31,19 +31,25 @@ title: Publications
     <div class='publication-venue'>
       <em>{{ p.venue }}</em>, {{ p.year }}
       {% if p.pdf %}
-        <a href='{{p.pdf}}'>[pdf]</a>
+        <a href='{{p.pdf}}' target='_blank'>[pdf]</a>
       {% endif %}
       {% if p.link %}
-        <a href='{{p.link}}'>[link]</a>
+        <a href='{{p.link}}' target='_blank'>[link]</a>
       {% endif %}
       {% if p.code %}
-        <a href='{{p.code}}'>[code]</a>
+        <a href='{{p.code}}' target='_blank'>[code]</a>
       {% endif %}
       {% if p.preprint %}
-        <a href='{{p.preprint}}'>[preprint]</a>
+        <a href='{{p.preprint}}' target='_blank'>[preprint]</a>
       {% endif %}
       {% if p.long_version %}
-        <a href='{{p.long_version}}'>[extended version]</a>
+        <a href='{{p.long_version}}' target='_blank'>[extended version]</a>
+      {% endif %}
+      {% if p.slides %}
+        <a href='{{p.slides}}' target='_blank'>[slides]</a>
+      {% endif %}
+      {% if p.poster %}
+        <a href='{{p.poster}}' target='_blank'>[poster]</a>
       {% endif %}
     </div>
   </div>
