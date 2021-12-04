@@ -5,6 +5,8 @@ title: About Me
 
 <p class='headshot-wrapper'><img class='headshot' src='headshot.jpg' title='hi!'></p>
 <p>
-I'm a PhD student in Computer Science at Harvard University advised by <a href='https://finale.seas.harvard.edu' target='_blank'>Finale Doshi-Velez</a>. I research how to make machine learning models more compatible with human conceptual models, so they can be used safely and as a tool to help us understand the world.</p>
+Hello! I'm currently a postdoctoral fellow at NYU Courant as part of the <a href='https://m2lines.github.io'>M<sup>2</sup>LInES</a> initiative, where I research how to improve ocean and climate models with interpretable machine learning techniques.
+</p>
 
-<p>Before my PhD, I spent several years as a software developer at <a href='https://www.vermonster.com' target='_blank'>Vermonster</a>, where I worked on a variety of projects including clinical decision support tools for oncology and building management data visualization. Before that, I studied Physics at Haverford College.</p>
+<p> Previously, I did a PhD in Computer Science with <a href='https://finale.seas.harvard.edu' target='_blank'>Finale Doshi-Velez</a> at <a href='https://www.seas.harvard.edu'>Harvard SEAS</a>, developed software at <a href='https://www.vermonster.com' target='_blank'>Vermonster</a>, and studied Physics at <a href='https://www.haverford.edu'>Haverford</a>.
+</p>

@@ -3,7 +3,7 @@
   authors: Andrew Slavin Ross and Finale Doshi-Velez
   venue: ICML
   pdf: /publications/RossDoshiVelez2021.pdf
-  link: https://arxiv.org/abs/2102.05185
+  link: https://proceedings.mlr.press/v139/ross21a.html
   code: https://github.com/dtak/hierarchical-disentanglement
   slides: https://docs.google.com/presentation/d/1gVTpHsbOHpOpvUDcbq6lvaf6DGaMueV60E6t6ha0Ikk/edit?usp=sharing
 
@@ -11,14 +11,15 @@
   year: 2021
   authors: Andrew Slavin Ross
   venue: PhD Thesis
+  award: "<a href='https://www.seas.harvard.edu/news/2021/06/computer-science-graduates-receive-dissertation-awards' target='_blank'>Outstanding Dissertation Award</a>"
   pdf: /publications/Dissertation.pdf
   slides: https://docs.google.com/presentation/d/13kv2PE1rp6IcAeJu1qXZ0QubrkmZFRqkBDTyv676IGE/edit?usp=sharing
 
 - title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
   year: 2021
   authors: Andrew Slavin Ross, Nina Chen, Elisa Zhao Hang, Elena L. Glassman, and Finale Doshi-Velez
-  venue: |-
-    <span style='font-style: normal'>🏆</span> Honorable Mention at ACM CHI
+  venue: ACM CHI
+  award: "<a href='https://chi2021.acm.org/for-attendees/highlights/awards' target='_blank'>Honorable Mention</a>"
   pdf: /publications/RossEtAl2021.pdf
   link: https://dl.acm.org/doi/10.1145/3411764.3445296
   code: https://github.com/dtak/interactive-reconstruction

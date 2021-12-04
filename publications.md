@@ -16,6 +16,20 @@ title: Publications
 .scholar {
   margin-top: -1rem;
 }
+
+.award {
+  border: 1px solid #ccc;
+  padding: 1px 3px;
+  border-radius: 5px;
+  background: #eee;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: small;
+}
+
+.award a {
+  color: rgb(85,85,85) !important;
+}
 </style>
 
 <p class='scholar'>
@@ -50,6 +64,11 @@ title: Publications
       {% endif %}
       {% if p.poster %}
         <a href='{{p.poster}}' target='_blank'>[poster]</a>
+      {% endif %}
+      {% if p.award %}
+        <span class='award'>
+            🏆 {{p.award}}
+        </span>
       {% endif %}
     </div>
   </div>
