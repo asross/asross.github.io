@@ -65,6 +65,9 @@ title: Publications
       {% if p.poster %}
         <a href='{{p.poster}}' target='_blank'>[poster]</a>
       {% endif %}
+      {% if p.recording %}
+        <a href='{{p.recording}}' target='_blank'>[recording]</a>
+      {% endif %}
       {% if p.award %}
         <span class='award'>
             🏆 {{p.award}}
