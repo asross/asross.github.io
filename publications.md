@@ -53,6 +53,9 @@ title: Publications
       {% if p.code %}
         <a href='{{p.code}}' target='_blank'>[code]</a>
       {% endif %}
+      {% if p.data %}
+        <a href='{{p.data}}' target='_blank'>[data]</a>
+      {% endif %}
       {% if p.preprint %}
         <a href='{{p.preprint}}' target='_blank'>[preprint]</a>
       {% endif %}

@@ -1,8 +1,11 @@
-- title: Evaluating Machine Learning Parameterizations of Ocean Subgrid Forcing
-  authors: Andrew Slavin Ross and Laure Zanna
+- title: Benchmarking of Machine Learning Ocean Subgrid Parameterizations in an Idealized Model
+  authors: Andrew Slavin Ross, Ziwei Li, Pavel Perezhogin, Carlos Fernandez-Granda, and Laure Zanna
   year: 2022
-  venue: Ocean Sciences Meeting
-  recording: https://www.youtube.com/watch?v=fIIAqrFOUSM
+  venue: In review
+  pdf: /publications/RossEtAl2022.pdf
+  link: https://www.essoar.org/doi/abs/10.1002/essoar.10511742.1
+  code: https://github.com/m2lines/pyqg_parameterization_benchmarks
+  data: https://doi.org/10.5281/zenodo.6609034
 
 - title: Benchmarks, Algorithms, and Metrics for Hierarchical Disentanglement
   year: 2021
