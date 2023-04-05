@@ -8,35 +8,24 @@
     %link{rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Enriqueta:400,700'}
     %link{rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'}
   :ruby
-    sections = [{
-      title: 'Education',
-      items: [{
-        who: 'Harvard University',
-        what: 'Ph.D. in Computer Science<br>M.E. in Computational Science and Engineering',
-        when: 'Aug 2016 - Jun 2021',
-        where: 'Cambridge, MA',
-        how: [
-          'Research on optimizing neural networks to be interpretable and consistent with expert knowledge.'
-        ]
-      }, {
-        who: 'Haverford College',
-        what: 'B.S. in Physics with concentration in Computer Science',
-        when: 'Aug 2007 - May 2011',
-        where: 'Haverford, PA',
-        how: [
-          'Graduated <em>magna cum laude</em>',
-          'Research on fluid dynamics and quantum information theory.'
-        ]
-      }]
-    }, {
+    sections = [
+    {
       title: 'Work',
       items: [{
-        who: 'Courant Institute of Mathematical Sciences',
+        who: 'Arcadia',
+        what: 'Software Engineer',
+        when: 'Jun 2022 - present',
+        where: 'Washington, DC',
+        how: [
+          'Led development and technical design of a newly-launched linear programming-based service to compute an optimal battery dispatch schedule for a given electricity tariff, rooftop solar system, and household consumption profile. Also developed features to improve how Arcadia allocates consumers to community solar projects, e.g. by improving predictions of future electricity usage from past statements.'
+        ]
+      }, {
+        who: 'NYU Courant Institute of Mathematical Sciences',
         what: 'Postdoctoral Fellow',
-        when: 'Aug 2021 - present',
+        when: 'Aug 2021 - Jun 2022',
         where: 'New York, NY',
         how: [
-          'Research on machine learning for parameterizing subgrid-scale processes in ocean models as part of <a href="https://m2lines.github.io">M<sup>2</sup>LInES</a>.'
+          'Research on machine learning for parameterizing subgrid-scale processes in ocean models with <a href="https://m2lines.github.io">M<sup>2</sup>LInES</a>. Published a <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022MS003258">first-author paper</a> in the Journal of Advances in Modeling Earth Systems.'
         ]
       }, {
         who: 'Google',
@@ -44,7 +33,7 @@
         when: 'May 2018 - Aug 2019',
         where: 'Mountain View, CA and Cambridge, MA',
         how: [
-          'In 2018, developed Bayesian predictive caching techniques in an OLAP service powering reporting applications. In 2019, co-wrote a <a href="https://github.com/PAIR-code/federated-learning">library for federated learning</a> with the People + AI Research team and made open-source contributions to <a href="https://www.tensorflow.org/js/">Tensorflow.js</a>.'
+          'In 2018, developed Bayesian predictive caching techniques in an OLAP service powering reporting applications. In 2019, worked on JS-based federated learning with <a href="https://pair.withgoogle.com/">PAIR</a> at Google Brain and made open-source contributions to <a href="https://www.tensorflow.org/js/">Tensorflow.js</a>.'
         ]
       }, {
         who: 'Vermonster LLC',
@@ -55,41 +44,50 @@
           'Designed, built, and deployed full stack web applications for clients in industry, academia, and local government. Highlights include helping lead development of a widely-used <a href="http://www.mckesson.com/about-mckesson/newsroom/press-releases/2016/clear-value-plus-reaches-milestone-100000th-clinical-decision-recorded/">oncology clinical decision support application</a> for McKesson, developing <a href="http://www.qajarwomen.org/en/index.html">Women\'s Worlds in Qajar Iran</a> with Harvard University, and writing an <a href="https://github.com/asross/repor">OLAP framework</a> to analyze building management data in Autodesk\'s <a href="https://www.autodesk.com/bim-360/facilities-management-software/">BIM 360 Ops</a>.'
         ]
       }]
-    }, {
-      title: 'Other',
+    },
+    {
+      title: 'Education',
       items: [{
-        who: 'Selected Publications',
+        who: 'Harvard University',
+        what: 'Ph.D. in Computer Science',
+        when: 'Aug 2016 - Jun 2021',
+        where: 'Cambridge, MA',
         how: [
-          '<a href="https://www.ijcai.org/Proceedings/2017/0371.pdf">Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations</a>, ICJAI 2017.',
-          '<a href="https://ojs.aaai.org/index.php/AAAI/article/view/11504">Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients</a>, AAAI 2018.',
-          '<a href="https://dl.acm.org/doi/abs/10.5555/3327546.3327680">Human-in-the-loop Interpretability Prior</a>, NeurIPS 2018.',
-          '<a href="https://arxiv.org/abs/1906.05433">Tackling Climate Change with Machine Learning</a>, 2019.',
-          '<a href="https://arxiv.org/abs/1911.01291">Ensembles of Locally Independent Prediction Models</a>, AAAI 2020.',
-          '<a href="https://dl.acm.org/doi/10.1145/3411764.3445296">Evaluating the Interpretability of Generative Models by Interactive Reconstruction</a>, ACM CHI 2021 (Honorable Mention).',
-          '<a href="https://arxiv.org/abs/2102.05185">Benchmarks, Algorithms, and Metrics for Hierarchical Disentanglement</a>, ICML 2021.',
-          'See a full list at <a href="https://asross.github.io/publications">asross.github.io/publications</a> or <a href="https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en">Google Scholar</a>.'
+          'Research on optimizing neural networks to be interpretable and consistent with expert knowledge. Published <a href="https://asross.github.io/publications">five first-author conference papers</a>, contributed to many others, and won the 2021 departmental <a href="https://www.seas.harvard.edu/news/2021/06/computer-science-graduates-receive-dissertation-awards">Outstanding Ph.D. Dissertation Award</a>.'
         ]
       }, {
-        who: 'Selected Projects',
+        who: 'Haverford College',
+        what: 'B.S. in Physics with concentration in Computer Science',
+        when: 'Aug 2007 - May 2011',
+        where: 'Haverford, PA',
         how: [
-          '<a href="https://www.climatechange.ai/">climatechange.ai</a>: Founding core team member and website lead',
-          '<a href="https://www.sunrisemovement.org/hubs">sunrisemovement.org/hubs</a>: Lead developer and data architect',
-          '<a href="https://github.com/asross/settlers">github.com/asross/settlers</a>: Settlers of Catan webapp and command-line interface',
-          '<a href="https://dtak.github.io/bayesonce">dtak.github.io/bayesonce</a>: Lead singer and audio engineer'
-        ]
-      }, {
-        who: 'Honors and Awards',
-        how: [
-          'Harvard Computer Science <a href="https://www.seas.harvard.edu/news/2021/06/computer-science-graduates-receive-dissertation-awards">Outstanding Ph.D. Dissertation Award</a>, 2021',
-          'Special Recognition for Outstanding Review, ACM CHI 2021',
-          'Top Reviewer Award, <a href="https://neurips.cc/Conferences/2019/Reviewers">NeurIPS 2019</a> and <a href="https://icml.cc/Conferences/2020/Reviewers">ICML 2020</a>',
-          'Best Reviewer Award, <a href="https://icml.cc/Conferences/2019/Reviewers">ICML 2019</a>',
-          'Courtlandt S. Gross Memorial Scholarship, 2019-2020',
-          'Harvard IACS Student Scholarship, 2017-2018',
-          'Phi Beta Kappa, 2011',
-          'Haverford Freshman Math Prize, 2008'
+          'Graduated <em>magna cum laude</em>'
         ]
       }]
+    },
+    {
+      title: 'Other',
+      items: [
+      {
+        who: 'Selected Projects',
+        how: [
+          '<a href="https://github.com/asross/repor">github.com/asross/repor</a>: OLAP reporting framework for Ruby on Rails',
+          '<a href="https://github.com/asross/settlers">github.com/asross/settlers</a>: Settlers of Catan webapp and command-line interface',
+          '<a href="https://www.climatechange.ai/">climatechange.ai</a>: Founding core team member and website lead',
+          '<a href="https://www.sunrisemovement.org/hubs">sunrisemovement.org/hubs</a>: Lead developer and data architect',
+          '<a href="https://dtak.github.io/bayesonce">dtak.github.io/bayesonce</a>: Lead singer and audio engineer'
+        ]
+      },
+      {
+        who: 'Programming Languages and Frameworks',
+        how: [
+          'Python (ML/data-focused, including pytorch, tensorflow, sklearn, pandas, xarray, and cvxpy)',
+          'Ruby (Rails-focused)',
+          'JavaScript (including React, Svelte, Ember, and Typescript)',
+          'HTML and CSS (numerous frameworks)',
+          'C, C++, and Java (moderate experience)'
+        ]
+      }] 
     }]
   %body
     %h1
@@ -108,10 +106,12 @@
             %i.fa.fa-envelope
             %a{href: 'mailto:andrewslavinross@gmail.com'}
               andrewslavinross@gmail.com
-            %br
-            %i.fa.fa-github
-            %a{href: 'https://github.com/asross'}
-              github.com/asross
+      %section
+        .label Summary
+        .details
+          .clearfix
+            Machine learning PhD with 5+ years in professional software development. Seeking opportunities where I can apply my technical skills to serve the public good.
+
 
       - sections.each do |s|
         %section{class: s[:title]}
