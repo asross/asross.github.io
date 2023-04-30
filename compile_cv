@@ -1,1 +1,1 @@
-haml cv.haml > cv.html && sass cv.scss > cv.css && open cv.html
+bundle exec haml cv.haml > cv.html && bundle exec sass cv.scss > cv.css && open cv.html

@@ -7,7 +7,7 @@ body {
   font-family: Enriqueta, serif;
   margin: 3em 4em;
   margin-top: 3em;
-  font-size: 13px; }
+  font-size: 14px; }
 
 h1 {
   border-bottom: 1pt solid black;
@@ -52,8 +52,14 @@ h1 {
         .two-col section .details ul.flushleft {
           padding-left: 0; }
         .two-col section .details ul li {
+          max-width: 87.5%;
+          margin-left: 1em; }
+        .two-col section .details ul li.position {
           list-style: none;
-          max-width: 87.5%; }
+          margin-left: 0; }
+    .two-col section.Other .details ul li {
+      list-style: none;
+      margin-left: 0; }
 
 section .details ul:last-of-type {
   margin-bottom: 5px !important; }
@@ -75,3 +81,21 @@ a:visited {
 
   .two-col section.Other .details ul:first-of-type li:not(:last-of-type) {
     max-width: 100%; } }
+@media screen and (max-width: 788px) {
+  body {
+    font-size: initial;
+    margin: 2rem !important; }
+
+  .two-col section .label, .two-col section .details {
+    display: block; }
+
+  .two-col section .label {
+    font-size: 24px;
+    padding-bottom: 0;
+    font-size: 19px; }
+
+  .left {
+    float: none; }
+
+  .two-col section .details ul li {
+    margin-top: 3px; } }
