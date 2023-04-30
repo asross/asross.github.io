@@ -5,8 +5,8 @@ title: About Me
 
 <p class='headshot-wrapper'><img class='headshot' src='headshot.jpg' title='hi!'></p>
 <p>
-Hello! I'm currently a software engineer at Arcadia, where I focus on optimizing battery dispatch schedules based on electricity tariffs, household consumption profiles, and rooftop solar/battery hardware specs.
+Hello! I'm currently a software engineer at Arcadia, where I focus on optimizing EV and battery charging schedules.
 </p>
 
-<p> Previously, I did a postdoc on machine learning for climate modeling at NYU Courant as part of <a href='https://m2lines.github.io'>M<sup>2</sup>LInES</a>, did a PhD researching interpretable ML with <a href='https://finale.seas.harvard.edu' target='_blank'>Finale Doshi-Velez</a> at <a href='https://www.seas.harvard.edu'>Harvard SEAS</a>, and developed software at <a href='https://www.vermonster.com' target='_blank'>Vermonster</a>.
+<p> Previously, I did a postdoc on machine learning for climate modeling with <a href='https://zanna-researchteam.github.io'>Laure Zanna</a> at NYU, a PhD on interpretable machine learning with <a href='https://finale.seas.harvard.edu' target='_blank'>Finale Doshi-Velez</a> at Harvard, and wrote software at <a href='https://www.vermonster.com' target='_blank'>Vermonster</a>.
 </p>

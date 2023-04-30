@@ -9,7 +9,7 @@ body {
   font-family: Enriqueta, serif;
   margin: 3em 4em;
   margin-top: 3em;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 h1 {
@@ -68,12 +68,20 @@ h1 {
         margin: 0;
         margin-bottom: 1em;
         li {
-          list-style: none;
           max-width: 87.5%;
+          margin-left: 1em;
+        }
+        li.position {
+          list-style: none;
+          margin-left: 0;
         }
       }
     }
 
+    &.Other .details ul li {
+      list-style: none;
+      margin-left: 0;
+    }
   }
 }
 
@@ -108,4 +116,23 @@ a:visited { color: #0000EE; }
   }
 }
 
-
+@media screen and (max-width: 788px) {
+  body {
+    font-size: initial;
+    margin: 2rem !important;
+  }
+  .two-col section .label, .two-col section .details {
+    display: block;
+  }
+  .two-col section .label {
+    font-size: 24px;
+    padding-bottom: 0;
+    font-size: 19px;
+  }
+  .left {
+    float: none;
+  }
+  .two-col section .details ul li {
+    margin-top: 3px;
+  }
+}
