@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-<p class='headshot-wrapper'><img class='headshot' src='headshot2.jpg' title='hi!'></p>
+<p class='headshot-wrapper'><img class='headshot' src='headshot.jpg' title='hi!'></p>
 <p>
 Hello! I'm currently a software engineer at Arcadia, where I focus on modeling and optimizing dispatch schedules for distributed energy resources.
 </p>
