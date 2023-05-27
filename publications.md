@@ -15,6 +15,11 @@ title: Publications
 
 .scholar {
   margin-top: -1rem;
+  margin-bottom: 0 !important;
+}
+
+.scholar + h3 {
+  margin-top: 2rem;
 }
 
 .award {
@@ -34,9 +39,16 @@ title: Publications
 
 <p class='scholar'>
   Most are also listed on <a href='https://scholar.google.com/citations?user=Lf-StbQAAAAJ&hl=en' target='_blank'>Google Scholar</a>.
+  <br>
+  <em>* Denotes co-first author.</em>
 </p>
 
-{% for p in site.data.publications %}
+{% for sec in site.data.publications %}
+    
+  <h3>{{sec.title}}</h3>
+
+  {% for p in sec.papers %}
+    
   <div class='publication'>
     <strong class='publication-title'>
       {{ p.title }}
@@ -78,4 +90,5 @@ title: Publications
       {% endif %}
     </div>
   </div>
+{% endfor %}
 {% endfor %}
