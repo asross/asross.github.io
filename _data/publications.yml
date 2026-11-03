@@ -25,6 +25,7 @@
       link: https://proceedings.mlr.press/v139/ross21a.html
       code: https://github.com/dtak/hierarchical-disentanglement
       slides: https://docs.google.com/presentation/d/1gVTpHsbOHpOpvUDcbq6lvaf6DGaMueV60E6t6ha0Ikk/edit?usp=sharing
+      talk: https://slideslive.com/38958585/benchmarks-algorithms-and-metrics-for-hierarchical-disentanglement
 
     - title: Evaluating the Interpretability of Generative Models by Interactive Reconstruction
       year: 2021
@@ -35,6 +36,7 @@
       link: https://dl.acm.org/doi/10.1145/3411764.3445296
       code: https://github.com/dtak/interactive-reconstruction
       slides: https://docs.google.com/presentation/d/1xAnQn84vPz_4JJfDGZ1l0tV0jvlTjK5i2qfq6u8598E/edit?usp=sharing
+      talk: https://www.youtube.com/watch?v=zbPeMT-ssXo
 
     - title: Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
       year: 2020

@@ -80,8 +80,8 @@ title: Publications
       {% if p.poster %}
         <a href='{{p.poster}}' target='_blank'>[poster]</a>
       {% endif %}
-      {% if p.recording %}
-        <a href='{{p.recording}}' target='_blank'>[recording]</a>
+      {% if p.talk %}
+        <a href='{{p.talk}}' target='_blank'>[talk]</a>
       {% endif %}
       {% if p.award %}
         <span class='award'>
